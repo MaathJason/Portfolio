@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +11,34 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 body{
     background: url("../src/img/bg-desktop.jpg") no-repeat top center/cover;   
+}
+
+body * {
     color: white;
+    font-family: 'Nunito';
+}
+
+p {
+    font-family: 'Nunito';
+}
+
+
+.container{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 0 25px;
+}
+
+.perfil img {
+    width: 115px;
+}
+
+.perfil {
+    text-align: center;
+    padding: 25px 0;
 }
