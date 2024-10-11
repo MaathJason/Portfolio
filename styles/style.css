@@ -36,6 +36,7 @@ p {
 
 .perfil img {
     width: 115px;
+    border-radius: 50%;
 }
 
 .perfil {
