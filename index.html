@@ -5,30 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="styles/style.css">
-    
+    <script defer src="scripts/script.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="perfil">
-            <img src="src/img/fotoport.jpeg" alt="">
+            <img class="profile-photo" src="src/img/fotoport.jpeg" alt="">
             <p>Mateus Sousa 💙🐱‍👤</p>
+        </div>
+        <div onclick="toggleMode()" id="switch">
+            <button></button>
+            <span></span>
         </div>
         <ul>
             <li>
-                <a href="">Um pouco sobre mim</a>
+                <a href="#">Um pouco sobre mim</a>
             </li>
             <li>
-                <a href="">Baixar curriculo</a>
+                <a href="#">Baixar curriculo</a>
             </li>
             <li>
                 <a href="https://github.com/MaathJason">Ver meu portfólio</a>
             </li>
             <li>
-                <a href="">Projetos realizados</a>
+                <a href="#">Projetos realizados</a>
             </li>
         </ul>
-
-        <div>
+        <div class="social-links">
             <a href="https://github.com/MaathJason">
                 <ion-icon name="logo-github"></ion-icon>
             </a>
@@ -40,12 +43,9 @@
             </a>
         </div>
         <footer>
-            Feito com o ❤ junto com os alunos da <a href="https://www.etecdeembu.com.br/"  target="_blank" >Etec de Embu</a> 
+            <p>Feito com o ❤ junto com os alunos da </p><a href="https://www.etecdeembu.com.br/"  target="_blank" >Etec de Embu</a> 
          </footer>
     </div>
-
-    
-
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
